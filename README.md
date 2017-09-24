@@ -9,7 +9,7 @@
 | README.md |  |
 | software-android-studio.sh | 为Android Studio安装依赖库 |
 | software-install.sh | 安装常用软件 |
-| softwarexxnet.sh | 重装系统后配置 XX-Net |
+| software-xxnet.sh | 重装系统后配置 XX-Net |
 | system-filelist-tree2md.sh | 将当前目录内脚本格式化输出到markdown文件 |
 | system-fix-efigrub2.sh | 修复Linux+Windows双系统grub2 |
 | system-kill-childprcess.sh | 杀死进程及其子进程 |
@@ -26,7 +26,7 @@
 ├── README.md  
 ├── software-android-studio.sh  
 ├── software-install.sh  
-├── softwarexxnet.sh  
+├── software-xxnet.sh  
 ├── system-filelist-tree2md.sh  
 ├── system-fix-efigrub2.sh  
 ├── system-kill-childprcess.sh  
