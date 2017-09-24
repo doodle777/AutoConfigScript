@@ -1,5 +1,5 @@
-#! /bin/bash
-## 杀死TIM进程
+#!/bin/bash
+##杀死TIM进程
 
 PROCESS="TIM.exe"
 # PID=$(ps -ef | grep $PROCESS | grep -v grep | awk '{print $2}')

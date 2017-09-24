@@ -1,5 +1,5 @@
 #!/bin/bash
-## 修复Linux+Windows双系统grub2
+##修复Linux+Windows双系统grub2
 
 sudo fdisk -l
 sudo mount /dev/sda5 /mnt/

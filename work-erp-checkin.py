@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # -*- coding:utf-8 -*-
-## ERP自动打卡脚本
+##ERP自动打卡脚本
 
 from http import cookiejar
 from urllib import request as Req

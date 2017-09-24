@@ -1,5 +1,5 @@
-#! /bin/bash
-## 杀死QQ进程
+#!/bin/bash
+##杀死QQ进程
 
 PROCESS="QQ.exe"
 # PID=$(ps -ef | grep $PROCESS | grep -v grep | awk '{print $2}')

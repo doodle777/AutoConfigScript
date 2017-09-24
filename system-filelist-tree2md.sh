@@ -1,5 +1,5 @@
-#! /bin/sh
-## 将当前目录内脚本格式化输出到markdown文件
+#!/bin/bash
+##将当前目录内脚本格式化输出到markdown文件
 
 FILE_PATH=$1
 FILE_NAME=README.md
@@ -18,11 +18,12 @@ echo '| -------- | -------- |' >> $FILE_NAME
 for FILE in `ls $FILE_PATH`
 do
 	if [ -f "$FILE_PATH/$FILE" ]; then
-		COMMENT=`head -n 3 "$FILE_PATH/$FILE" | grep "## " | sed 's/## \(.*\)$/\1/'`
+		COMMENT=`head -n 3 "$FILE_PATH/$FILE" | grep "##" | sed 's/##\(.*\)$/\1/'`
 		echo "| $FILE | $COMMENT |" >> $FILE_NAME
 	fi
 done
 
+echo >> $FILE_NAME
 echo '## 目录树' >> $FILE_NAME
 echo >> $FILE_NAME
 

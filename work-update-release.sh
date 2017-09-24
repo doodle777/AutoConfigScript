@@ -1,5 +1,5 @@
 #!/bin/bash
-## 更新当前目录下所有git仓库release分支到最新版本
+##更新当前目录下所有git仓库release分支到最新版本
 
 pull_release() {
 	# 对目录内每个文件

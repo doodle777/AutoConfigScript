@@ -1,5 +1,5 @@
-#! /bin/sh
-## 重装系统后配置 XX-Net
+#!/bin/bash
+##重装系统后配置 XX-Net
 sudo apt-get install python-openssl
 sudo apt-get install libffi-dev
 sudo apt-get install -y python-gtk2

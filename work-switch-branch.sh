@@ -1,5 +1,5 @@
 #!/bin/bash
-## 切换当前目录下所有git仓库到release分支
+##切换当前目录下所有git仓库到release分支
 
 switch_to_release() {
 	# 对目录内每个文件

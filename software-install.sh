@@ -1,5 +1,5 @@
-#! /user/bin/bash
-## 安装常用软件
+#!/bin/bash
+##安装常用软件
 
 # Install Vim
 sudo apt install vim

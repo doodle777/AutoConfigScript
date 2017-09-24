@@ -17,8 +17,10 @@
 | system-kill-tim.sh | 杀死TIM进程 |
 | work-check-branch.sh | 查看当前目录内所有git仓库的所有分支 |
 | work-erp-checkin.py | ERP自动打卡脚本 |
+| work-seu-login.sh | 登录/退出 w.seu.edu.cn |
 | work-switch-branch.sh | 切换当前目录下所有git仓库到release分支 |
 | work-update-release.sh | 更新当前目录下所有git仓库release分支到最新版本 |
+
 ## 目录树
 
 .  
@@ -34,7 +36,8 @@
 ├── system-kill-tim.sh  
 ├── work-check-branch.sh  
 ├── work-erp-checkin.py  
+├── work-seu-login.sh  
 ├── work-switch-branch.sh  
 └── work-update-release.sh  
   
-0 directories, 14 files  
+0 directories, 15 files  
