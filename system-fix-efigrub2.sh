@@ -3,7 +3,7 @@
 
 sudo fdisk -l
 sudo mount /dev/sda5 /mnt/
-sudo mount /dev/sad1 /mnt/boot/efi
+sudo mount /dev/sda1 /mnt/boot/efi
 sudo mount /dev/sda6 /mnt/home
 
 sudo mount --bind /proc /mnt/proc/
